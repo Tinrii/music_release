@@ -102,7 +102,7 @@ const MusicPlayer = ({ theme = 'dark' }: MusicPlayerProps) => {
             <div className='flex-1 flex flex-col gap-3'>
                 <div className='flex justify-between items-start'>
                     <div className='overflow-hidden'>
-                        <h3 className='font-black leading-none uppercase tracking-widest text-sm truncate'>Presidente</h3>
+                        <h3 className='font-black leading-none uppercase tracking-widest text-sm truncate'>Presidente (demo)</h3>
                         <p className={`text-[10px] font-bold tracking-widest mt-1 uppercase ${
                             isDark ? 'text-white/50' : 'text-black/50'
                         }`}>Petra Stto</p>
